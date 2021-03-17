@@ -127,4 +127,31 @@ body{
 .app-download:nth-child(2){
     background-image: url('./imgs/googleplay-button.png');
 }
-/* terminei no minuto 6.33 fzendo resposividade */
+/* media queries */
+
+@media (max-width:1024px){
+    .intagram-wrapper{
+        width: 90%;
+    }
+}
+/* media celular */
+@media (max-width:650px){
+    body{
+        background-color: #fff;
+    }
+
+    .intagram-wrapper{
+        width: 90%;
+    }
+    .intagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%; 
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+}
